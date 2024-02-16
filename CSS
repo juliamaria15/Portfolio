@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 60000;
+    background-color: #fff;
+    color: black;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+h2.titulo {
+    color: #fff;
+    font-size: 34px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: rgb(223, 89, 111);
+}
+
+h1.titulo {
+    color: rgb(223, 89, 111);
+    font-size: 25px;
+
+}
+
+
+body {
+    background-color: black;
+    height: 100vh;
+
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    padding: 10px 4%;
+
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.20);
+}
+
+.container img {
+    max-width: 2000px;
+    border: 0;
+    border-radius: 50px;
+}
+
+.container img {
+    max-width: 2000px;
+}
+
+.container img {
+    transform: scale(1.10);
+    box-shadow: 0 0 5px #fff;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 50px;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 60000;
+    background-color: rgb(223, 89, 111);
+    color: black;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover {
+    box-shadow: 0px 0px 4px black;
+}
+
+section.topo-do-site {
+    padding: 100px 10%;
+}
+
+section.topo-do-site.flex {
+    align-self: center;
+    justify-content: center;
+}
+
+.topo-do-site .txt-topo-site p {
+    color: #fff;
+    margin: 60px 0;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+.topo-do-site .img-topo-site img {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #fff;
+    border-radius: 10px;
+
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 50px;
+    }
+}
+
+section.Habilidades {
+    padding: 200px 4%;
+
+}
+
+section.Habilidades .flex {
+    gap: 60px;
+}
+
+.Habilidades .Habilidades-box {
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    transition: .2s;
+    margin-top: 45px;
+}
+
+.Habilidades .Habilidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #fff;
+}
+
+.Habilidades .Habilidades-box i {
+    font-size: 70px;
+    color: rgb(223, 89, 111);
+
+}
+
+.Habilidades .Habilidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+
+}
+
+section.fotos{
+    padding: 80px 4%;
+    
+}
+
+
+section.fotos.flex{
+    gap: 80px;
+    box-shadow: 0 0 40px #ffffff55 ;
+}
+
+
+.img-port {
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+}
+
+.img-port {
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #fff;
+}
+
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px #ffffff55 ;
+}
+ footer .flex{
+justify-content: space-between;
+ }
+
+ footer .line-footer{
+    padding: 30px 0;
+ }
+ .borda{
+    border-top: 2px solid rgb(223, 89, 111);
+ }
+
+ .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(223, 89, 111) ;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+ }
+
+ footer .line-footer p{
+    color:rgb(223, 89, 111);
+ }
+
+footer .line-footer p i{
+    font-size: 22px;
+
+}
+footer .line-footer p a{
+    color: #fff;
+ }
